@@ -19,3 +19,23 @@ Result:
 
 Explanation: There are 5 rows in the output matrix. Each row corresponds to each one of the rows in the image shown above.
 ```
+
+<h1>Solution:</h1>
+
+```java
+public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+		List<Integer> row, pre = null;
+		for (int i = 0; i < numRows; ++i) {
+			row = new ArrayList<Integer>();
+			for (int j = 0; j <= i; ++j)
+				if (j == 0 || j == i)
+					row.add(1);
+				else
+					row.add(pre.get(j - 1) + pre.get(j));
+			pre = row;
+			res.add(row);
+		}
+		return res;
+    }
+```
