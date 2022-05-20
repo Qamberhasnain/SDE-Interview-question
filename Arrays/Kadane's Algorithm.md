@@ -43,5 +43,5 @@ public int maxSubArray(int[] nums) {
             }
         }
         return max;
-}
+    }
 ```
