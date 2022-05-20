@@ -22,8 +22,8 @@ Output: 1
 
 Explanation: Array has only one element and which is giving positive sum of 1. 
 ```
-# Solution
-
+# Solution 1
+This solution is efficient and optimal.
 ```java
 public int maxSubArray(int[] nums) {
         
@@ -40,6 +40,23 @@ public int maxSubArray(int[] nums) {
             }
             if(sum<0){
                 sum = 0;
+            }
+        }
+        return max;
+    }
+```
+
+# Solution 2
+This solution is presented if problem setter allows negative values as maximum sum instead of zero.
+
+```java
+int storage []=  new int[nums.length];
+        int max  =  nums[0];
+        storage[0 ] =  nums[0];
+        for( int i=1;i<nums.length ;i++  ){
+            storage[i] =  Math.max( storage[i-1]+nums[i] ,  nums[i]);
+            if(storage[i]>max){
+                max=  storage[i];
             }
         }
         return max;
