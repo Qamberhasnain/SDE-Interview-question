@@ -12,3 +12,4 @@ This sheet has the most popular questions ever asked in SDE interviews in most o
       7. [Rotate image](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Rotate%20image.md)
       8. [Rotate matrix by one element](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Rotate%20matrix%20by%20one%20element.md)
       9. [Merge Overlapping Sub-intervals](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Merge%20Overlapping%20Sub-intervals.md)
+      10. [Merge two Sorted Arrays Without Extra Space](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Merge%20two%20Sorted%20Arrays%20Without%20Extra%20Space.md)
