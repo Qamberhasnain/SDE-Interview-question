@@ -32,7 +32,7 @@ public int findDuplicate(int[] nums) {
         return sl;
   }
 ```
-Frequencyy array method with time complexity as **O(N)** and space complexity as **O(N)**.
+Frequency array method with time complexity as **O(N)** and space complexity as **O(N)**.
 ```java
 public int findDuplicate(int[] nums) {
         int n = nums.length;
