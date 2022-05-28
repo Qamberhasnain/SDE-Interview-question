@@ -14,3 +14,4 @@ This sheet has the most popular questions ever asked in SDE interviews in most o
       9. [Merge Overlapping Sub-intervals](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Merge%20Overlapping%20Sub-intervals.md)
       10. [Merge two Sorted Arrays Without Extra Space](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Merge%20two%20Sorted%20Arrays%20Without%20Extra%20Space.md)
       11. [Find the duplicate](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Find%20the%20duplicate.md)
+      12. [Find the repeating and missing numbers](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Find%20the%20repeating%20and%20missing%20numbers.md)
