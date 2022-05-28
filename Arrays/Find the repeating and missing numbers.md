@@ -23,3 +23,47 @@ Since 5 is appearing twice and 8 is missing
 ```
 
 # Solution:
+### 1:- Using frequency array.
+Time complexity is **O(N)** and Space complexity is **O(N)**
+```java
+public int[] repeatedNumber(final int[] A) {
+        int n = A.length;
+        int miss, repeat;
+        int[] ans = new int[2];
+        int freq[] = new int[n+1];
+        for(int i=0;i<n;i++){
+            freq[A[i]]++;
+        }
+        for(int j=1;j<=n;j++){
+            if(freq[j]==0){
+                miss = j;
+                ans[1] = miss;
+            }
+            if(freq[j]>1){
+                repeat = j;
+                ans[0] = repeat;
+            }
+        }        
+        return ans;
+    }
+```
+### 2:- Using Maths.
+Time complexity is **O(N)** and Space complexity is **O(1)**
+```java
+ public int[] repeatedNumber(final int[] A) {
+        long n = A.length;
+        long S = (n*(n+1))/2;
+        long P = (n*(n+1)*(2*n+1))/6;
+        long miss = 0, repeat = 0;
+        int[] ans = new int[2];
+        for(int i=0;i<n;i++){
+            S -= (long) A[i];
+            P -= (long)A[i]*(long)A[i];
+        }
+        miss = (S+P/S)/2;
+        repeat = miss - S;
+        ans[0] = (int)repeat;
+        ans[1] = (int)miss;
+        return ans;
+    }
+```
