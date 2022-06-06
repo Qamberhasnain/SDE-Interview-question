@@ -18,3 +18,4 @@ This sheet has the most popular questions ever asked in SDE interviews in most o
       13. [Count inversions in an array](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Count%20inversions%20in%20an%20array.md)
       14. [Search in a sorted 2D matrix](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Search%20in%20a%20sorted%202D%20matrix.md)
       15. [Implement Pow(x,n)](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Implement%20Pow(x%2Cn).md)
+      16. [Majority Element (>N/2)](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Majority%20Element%20(%3EN%5C2).md)
