@@ -20,3 +20,4 @@ This sheet has the most popular questions ever asked in SDE interviews in most o
       15. [Implement Pow(x,n)](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Implement%20Pow(x%2Cn).md)
       16. [Majority Element (>N/2)](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Majority%20Element%20(%3EN%5C2).md)
       17. [Majority Elements(>N/3 times)](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Majority%20Elements(%3EN%5C3%20times).md)
+      18. [Grid Unique Paths](https://github.com/Qamberhasnain/SDE-Interview-question-Java/blob/main/Arrays/Grid%20Unique%20Paths.md)
